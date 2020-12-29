@@ -28,7 +28,7 @@ public:
 
     int pop() {
         if(isEmpty()) error ("스택 공백 에러");
-        return data[--top];
+        return data[top--];
     }
 
     int peek() {
