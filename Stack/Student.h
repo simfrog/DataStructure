@@ -34,7 +34,7 @@ public:
     friend ostream& operator<<(ostream& os, Student& st);
 };
 
-ostream& operator<<(ostream& os, Student st) {
+ostream& operator<<(ostream& os, Student& st) {
     os << st.contents();
     return os;
 }
