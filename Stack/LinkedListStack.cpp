@@ -2,7 +2,7 @@
 
 int main()
 {
-    LinkedListSatck stack;
+    LinkedListStack stack;
     for(int i = 1; i < 10; i++) {
         stack.push(i);
     }

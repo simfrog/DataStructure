@@ -7,10 +7,10 @@ inline void error(const char* str) {
     exit(1);
 };
 
-class LinkedListSatck : public s_linked_list
+class LinkedListStack : public s_linked_list
 {
 public:
-    LinkedListSatck(): s_linked_list() {}
+    LinkedListStack(): s_linked_list() {}
     bool isEmpty() { return Size() == 0; }
     void push(int e) { push_front(e); }
 
