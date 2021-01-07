@@ -38,9 +38,10 @@ public:
     void insert(int pos, int e) {
         if(pos >= 0 && pos <= length) {
             if(isFull()) resize(current_size+resize_unit);
-            for(int i = pos+1; i < length; i++)
-                data[i-1] = data[i];
-            length--;
+            for(int i = length; i > pos; i--)
+                data[i] = data[i-1];
+            data[pos] = e;
+            length++;
         } else {
             error ("포화상태 오류 또는 삽입 위치 오류\n");
         }
