@@ -24,7 +24,7 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
 
 ![트리용어2](https://user-images.githubusercontent.com/31130917/104162557-2d4f3700-5438-11eb-88fc-242e843ad448.PNG)
 ####
-* #### 부모 노드(parent node)  
+* #### 부모 노드(parent node)
     ex) A는 B의 부모 노드  
 * #### 자식 노드(children node)  
     ex) B는 A의 자식 노드  
