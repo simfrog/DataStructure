@@ -17,3 +17,6 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
     
     {B, E, F, G}, {C, H}, {D, I, J} -> A의 서브트리  
     {E}, {F}, {G} -> B의 서브트리
+
+![트리용어2](https://user-images.githubusercontent.com/31130917/104162557-2d4f3700-5438-11eb-88fc-242e843ad448.PNG)
+####
