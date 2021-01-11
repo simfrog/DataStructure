@@ -86,13 +86,13 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
 ![스크린샷(2)](https://user-images.githubusercontent.com/31130917/104204914-1da01480-5471-11eb-89c1-ed0a20aacac7.png)
 ## 5. 순회(traversal)
 * #### 전위 순회(preorder) : 루트 -> 왼쪽 서브트리 -> 오른쪽 서브트리
-'''  
+<pre><code>
 preorder(x)
 
     if x != NULL  
         then print DATA(x);  
              preorder(LEFT(X));  
              preorder(RIGHT(X));  
-'''
+</code><pre>
 * #### 중위 순회(inorder) : 왼쪽 서브트리 -> 루트 -> 오른쪽 서브트리
 * #### 후위 순회(postorder) : 왼쪽 서브트리 -> 오른쪽 서브트리 -> 루트
