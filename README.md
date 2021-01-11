@@ -87,7 +87,7 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
 ## 5. 순회(traversal)
 * #### 전위 순회(preorder) : 루트 -> 왼쪽 서브트리 -> 오른쪽 서브트리
     preorder(x)  
-      
+    
     if x != NULL  
         then print DATA(x);  
              preorder(LEFT(X));  
