@@ -72,3 +72,6 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
         * insertNode(n) : 이진트리에 노드 n을 삽입  
         * deleteNode(n) : 이진트리에서 노드 n을 삭제  
         * display() : 이진트리의 내용을 화면에 출력
+## 3. 표현
+### 3-1. 배열 표현법
+![배열표현법](https://user-images.githubusercontent.com/31130917/104202727-9fdb0980-546e-11eb-9b2b-77ffd9169037.png)
