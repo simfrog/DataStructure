@@ -92,5 +92,6 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
         then print DATA(x);  
              preorder(LEFT(X));  
              preorder(RIGHT(X));
+             
 * #### 중위 순회(inorder) : 왼쪽 서브트리 -> 루트 -> 오른쪽 서브트리
 * #### 후위 순회(postorder) : 왼쪽 서브트리 -> 오른쪽 서브트리 -> 루트
