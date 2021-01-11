@@ -95,4 +95,20 @@ preorder(x)
              preorder(RIGHT(X));  
 </code></pre>
 * #### 중위 순회(inorder) : 왼쪽 서브트리 -> 루트 -> 오른쪽 서브트리
+<pre><code>
+inorder(x)
+
+    if x != NULL  
+        then inorder(LEFT(X));  
+             print DATA(x);  
+             inorder(RIGHT(X));  
+</code></pre>
 * #### 후위 순회(postorder) : 왼쪽 서브트리 -> 오른쪽 서브트리 -> 루트
+<pre><code>
+postorder(x)
+
+    if x != NULL  
+        then postorder(LEFT(X));  
+             postorder(RIGHT(X));
+             print DATA(x);  
+</code></pre>
