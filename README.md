@@ -116,4 +116,19 @@ postorder(x)
     * 자식 노드 처리한 다음 부모 노드 처리 -> 후위 순회  
         ex) 디렉토리 용량 계산  
     * 부모 노드 처리한 다음 자식 노드 처리 -> 전위 순회
-* #### 후위 순회(postorder) : 왼쪽 서브트리 -> 오른쪽 서브트리 -> 루트
+* #### 레벨 순회(level order) : 각 노드를 레벨 순으로 순회
+동일한 레벨의 경우 좌에서 우로 방문  
+큐를 사용  
+![레벨순회](https://user-images.githubusercontent.com/31130917/104209082-9c4a8100-5474-11eb-839a-506c00c5a157.png)
+<pre><code>
+Level_order()
+
+initialize queue;  
+queue.enqueue(root);  
+while queue.isEmpty() != TRUE do  
+    x <- queue.dequeue();  
+    if x != NULL  
+        then print DATA(x);  
+             queue.enqueue(LEFT(X));  
+             queue.enqueue(RIGHT(X));  
+</code></pre>
