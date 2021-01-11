@@ -82,3 +82,5 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
 ![링크표현법](https://user-images.githubusercontent.com/31130917/104203083-12e48000-546f-11eb-96e6-8573637598cf.png)
 
 <출처 : https://colomy.tistory.com/72>  
+## 4. 링크 표현법을 이용한 이진트리 구현  
+![스크린샷(2)](https://user-images.githubusercontent.com/31130917/104204914-1da01480-5471-11eb-89c1-ed0a20aacac7.png)
