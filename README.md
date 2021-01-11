@@ -75,3 +75,10 @@ ex) 컴퓨터의 저장장치, 결정트리(decision tree)
 ## 3. 표현
 ### 3-1. 배열 표현법
 ![배열표현법](https://user-images.githubusercontent.com/31130917/104202727-9fdb0980-546e-11eb-9b2b-77ffd9169037.png)
+
+<출처 : https://medium.com/quantum-ant/%ED%8A%B8%EB%A6%AC-tree-cec69cfddb14>  
+기억공간의 낭비가 심할 수 있다.  
+### 3-2. 링크 표현법  
+![링크표현법](https://user-images.githubusercontent.com/31130917/104203083-12e48000-546f-11eb-96e6-8573637598cf.png)
+
+<출처 : https://colomy.tistory.com/72>  
