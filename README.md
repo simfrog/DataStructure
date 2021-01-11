@@ -93,6 +93,6 @@ preorder(x)
         then print DATA(x);  
              preorder(LEFT(X));  
              preorder(RIGHT(X));  
-</code><pre>
+</code></pre>
 * #### 중위 순회(inorder) : 왼쪽 서브트리 -> 루트 -> 오른쪽 서브트리
 * #### 후위 순회(postorder) : 왼쪽 서브트리 -> 오른쪽 서브트리 -> 루트
