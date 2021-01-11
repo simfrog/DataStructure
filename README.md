@@ -132,3 +132,13 @@ while queue.isEmpty() != TRUE do
              queue.enqueue(LEFT(X));  
              queue.enqueue(RIGHT(X));  
 </code></pre>
+## 6. 응용
+### 6-1. 수식 트리(expression tree)
+![수식트리](https://user-images.githubusercontent.com/31130917/104209990-ae78ef00-5475-11eb-93ad-1f129c000fdd.PNG)
+-> 후위 순회 사용  
+## 7. 스레드 이진트리(threaded binary tree)
+* #### 중위 선행자(inorder predecessor) : 어떤 노드 바로 앞에 방문되는 노드  
+* #### 중위 후속자(inorder successor) : 바로 다음에 방문하는 노드
+#### 스레드 이진트리에서는 링크 값이 NULL을 갖는대신 중위 선행자나 중위 후속자를 저장시켜 놓는 것이 스레트 이진트리의 핵심 아이디어
+![스레드](https://user-images.githubusercontent.com/31130917/104210762-96ee3600-5476-11eb-84ea-e952e7858fa6.PNG)
+A, B, D 노드의 오른쪽 링크가 NULL이 아닌 중위 순회에서 다음으로 방문되는 노드를 가리킴
